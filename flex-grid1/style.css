@@ -1,0 +1,106 @@
+.flexcontener {
+    background-color: rgb(255, 177, 51);
+    display: flex;
+    width: 35%;
+    padding: 5px;
+}
+
+.flexcontener div {
+    width: 100%;
+    height: 300px;
+}
+
+.st {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.box1.st {
+    background-color: green;
+}
+.box2.st {
+    background-color: yellow;
+}
+.box3.st {
+    background-color: purple;
+}
+.box4.st {
+    background-color: slategray;
+}
+.box5.st {
+    background-color: blue;
+}
+.box6.st {
+    background-color: burlywood;
+}
+.box7.st{
+    background-color: rgb(251, 207, 251);
+}
+.box8.st {
+    background-color: red;
+}
+.box9.st {
+    background-color: brown;
+}
+
+.gridcontener {
+    width: 50%;
+    display: grid;
+    gap: 5px 25px;
+    grid-template-columns: repeat(12 , auto);
+    grid-template-rows: 30px 75px 70px 70px 70px 30px;
+    justify-content: stretch;
+}
+
+.c1{
+    background-color: rgb(127, 127, 127);
+    grid-column: 1/13;
+}
+.c2{
+    background-color: blue;
+    grid-column: 1/9;
+}
+.c3{
+    background-color: rgb(151, 212, 255);
+    grid-column: 9/13;
+}
+.c4 {
+    grid-column: 1/5;
+    background-color: rgb(243, 243, 14);
+}
+.c5{
+    grid-column: 5/9;
+    background-color: rgb(243, 243, 14);
+}
+.c6{
+    grid-column: 9/13;
+    background-color: rgb(243, 243, 14);
+}
+.c7{
+    grid-column: 1/5;
+    background-color: rgb(151, 212, 255);
+}
+.c8{
+    background-color: blue;
+    grid-column: 5/13;
+}
+.c9{
+    grid-column: 1/4;
+    background-color: orange;
+}
+.c10{
+    grid-column: 4/7;
+    background-color: orange;
+}
+.c11{
+    grid-column: 7/10;
+    background-color: orange;
+}
+.c12{
+    grid-column: 10/13;
+    background-color: orange;
+}
+.c13{
+    background-color: rgb(127, 127, 127);
+    grid-column: 1/13;
+}

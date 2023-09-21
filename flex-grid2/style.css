@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(255,255,186);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.flex {
+    background-color: white;
+    border-radius: 75px;
+    width: 35%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.flex div {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.flex div > :nth-child(1) {
+    width: 110px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+.flex div > :nth-child(2) {
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.flex div > :nth-child(3) {
+    position: relative;
+    bottom: 25px;
+    right: 8px;
+    color: #797979;
+    font-weight: bold;
+}
+
+hr {
+    margin: 0px;
+}
